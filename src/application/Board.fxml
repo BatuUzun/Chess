@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="966.0" prefWidth="1204.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BoardController">
+   <children>
+      <Label fx:id="nameLbl" alignment="CENTER" layoutY="9.0" prefHeight="75.0" prefWidth="1204.0" text="BATU CHESS">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Button fx:id="firstButton" layoutX="906.0" layoutY="365.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="33.0" text="&lt;&lt;" />
+      <Button fx:id="previousButton" layoutX="976.0" layoutY="365.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="33.0" text="&lt;" />
+      <Button fx:id="nextButton" layoutX="1046.0" layoutY="365.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="33.0" text="&gt;" />
+      <Button fx:id="lastButton" layoutX="1116.0" layoutY="365.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="33.0" text="&gt;&gt;" />
+      <Button fx:id="restartButton" layoutX="906.0" layoutY="442.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="243.0" text="RESTART" />
+      <Button fx:id="restartAndChangePerspectiveButton" layoutX="906.0" layoutY="478.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="243.0" text="RESTART AND CHANGE PERSPECTIVE" />
+      <Label fx:id="timerTopLbl" alignment="CENTER" layoutX="906.0" layoutY="132.0" prefHeight="133.0" prefWidth="261.0" text="10:00">
+         <font>
+            <Font size="55.0" />
+         </font>
+      </Label>
+      <Label fx:id="timerBottomLbl" alignment="CENTER" layoutX="906.0" layoutY="714.0" prefHeight="133.0" prefWidth="261.0" text="10:00">
+         <font>
+            <Font size="55.0" />
+         </font>
+      </Label>
+      <Button fx:id="changePerspectiveButton" layoutX="906.0" layoutY="406.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="243.0" text="CHANGE PERSPECTIVE" />
+   </children>
+</AnchorPane>
