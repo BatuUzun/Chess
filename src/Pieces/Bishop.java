@@ -103,8 +103,8 @@ public class Bishop extends Pieces {
 		possibleMoves.add(coordinates);
 
 	}
-
-	private void checkColors(ImageView[][] imageview, int[] coordinates) {
+	@Override
+	public void checkColors(ImageView[][] imageview, int[] coordinates) {
 		if (imageview[firstPosition][secondPosition].getImage() != null
 				&& imageview[firstPosition][secondPosition].getImage().getUrl().contains("white")) {
 			if (!imageview[coordinates[0]][coordinates[1]].getImage().getUrl().contains("black")) {

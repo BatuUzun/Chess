@@ -266,4 +266,7 @@ public class Pawn extends Pieces {
 
 	}
 
+	@Override
+	public void checkColors(ImageView[][] imageview, int[] coordinates) {}
+
 }

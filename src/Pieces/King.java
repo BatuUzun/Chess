@@ -1,10 +1,7 @@
 package Pieces;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Objects;
-import java.util.Set;
+
 
 import javafx.scene.image.ImageView;
 
@@ -600,8 +597,8 @@ public class King extends Pieces {
 		}
 
 	}
-
-	private void checkColors(ImageView[][] imageview, int[] coordinates) {
+	@Override
+	public void checkColors(ImageView[][] imageview, int[] coordinates) {
 		if (imageview[firstPosition][secondPosition].getImage() != null
 				&& imageview[firstPosition][secondPosition].getImage().getUrl().contains("white")) {
 			if (!imageview[coordinates[0]][coordinates[1]].getImage().getUrl().contains("black")) {
@@ -616,23 +613,5 @@ public class King extends Pieces {
 
 	}
 
-	private boolean isControlled() {
-		if (controlledByBlackList.isEmpty()) {
-			
-			for (int[] a : controlledByWhiteList) {
-				if (a[0] == coordinates[0] && a[1] == coordinates[1]) {
-					return true;
-				}
-			}
-
-		} else {
-			
-			for (int[] a : controlledByBlackList) {
-				if (a[0] == coordinates[0] && a[1] == coordinates[1]) {
-					return true;
-				}
-			}
-		}
-		return false;
-	}
+	
 }

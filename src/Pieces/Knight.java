@@ -65,8 +65,8 @@ public class Knight extends Pieces {
 		 */
 		return possibleMoves;
 	}
-
-	private void checkColors(ImageView[][] imageview, int[] coordinates) {
+	@Override
+	public void checkColors(ImageView[][] imageview, int[] coordinates) {
 		if (!isEmpty(imageview, coordinates)) {
 			if (imageview[firstPosition][secondPosition].getImage() != null
 					&& imageview[firstPosition][secondPosition].getImage().getUrl().contains("white")) {

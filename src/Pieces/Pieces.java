@@ -1,5 +1,7 @@
 package Pieces;
 
+import java.util.ArrayList;
+
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
@@ -21,5 +23,6 @@ public abstract class Pieces implements Interface_Move {
 	}
 
 	public abstract void addCoordinates(int firstIndex, int secondIndex, ImageView[][] imageview);
+	public abstract void checkColors(ImageView[][] imageview, int[] coordinates);
 
 }
