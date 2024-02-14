@@ -12,7 +12,9 @@
 
 * In order to see whole project running, you can check my Google Drive.
 
-* My Google Drive: https://drive.google.com/drive/folders/1XJ52Ut-X_6YbcjVSHRzta2qxugMqxOfo?usp=sharing
+* My Google Drive: https://drive.google.com/file/d/1MfzGo8lDkGcCRT_reDXjpoNucKCT5Fr8/view?usp=drive_link
+
+* For further information about me: https://www.batuuzun.com/
 
 ![image](https://github.com/BatuUzun/Chess/assets/103521291/6a7b172e-e96f-4b70-b2b7-d24cdab361cb)
 
